@@ -143,6 +143,17 @@ li{
     opacity: 0.7;
 }
 
+#imagen1:hover{
+    transition-duration: 0.4s;
+    opacity: 1;
+    transform:rotateY(180deg) rotateY(180deg)  
+}
+#imagen2:hover{
+    transition-duration: 0.2s;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
 #Isao{
     float: right;
     border-radius: 50%;
